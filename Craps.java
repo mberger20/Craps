@@ -12,8 +12,7 @@ public class Craps
 {
     public static void giveInstructions(Scanner in)
     {
-        
-        System.out.print("Would you like instructions on how to play Craps (Y/n)?");
+        System.out.println("Would you like instructions on how to play Craps (Y/n)?");
         String playGame = in.nextLine();
         if (playGame.equals("") ||
             playGame.substring(0,1).equalsIgnoreCase("y"))
